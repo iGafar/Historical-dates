@@ -137,17 +137,18 @@ const CircleStyle = styled.div`
         }
       }
 
-      &-active {
-        .text {
-          display: block;
-        }
-      }
-
       .text {
         position: absolute;
         left: 70px;
         width: max-content;
-        display: none;
+        opacity: 0;
+      }
+
+      &-active {
+        .text {
+          transition: all 400ms 1s ease-in;
+          opacity: 1;
+        }
       }
     }
   }
