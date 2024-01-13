@@ -44,6 +44,7 @@ main {
 	max-width: 1660px;
 	margin: 0 auto;
 	padding: 0 30px;
+	overflow-x: hidden;
 }
 .wrapper {
 	min-height: 100vh;
