@@ -45,7 +45,7 @@ const CircleBlock: FC = () => {
               <p className="number">
                 <span>{i + 1}</span>
               </p>
-              <p className="text">{el.field}</p>
+              <p className={activeCircle && "text"}>{el.field}</p>
             </div>
           </li>
         ))}
@@ -141,12 +141,14 @@ const CircleStyle = styled.div`
         position: absolute;
         left: 70px;
         width: max-content;
+        visibility: hidden;
         opacity: 0;
       }
 
       &-active {
         .text {
           transition: all 400ms 1s ease-in;
+          visibility: visible;
           opacity: 1;
         }
       }
