@@ -1,7 +1,6 @@
 import { FC } from "react";
 import SwiperBlock from "./components/SwiperBlock";
-import styled, { ThemeProvider, createGlobalStyle } from "styled-components";
-import { theme } from "./constants/styles";
+import styled, { createGlobalStyle } from "styled-components";
 import "./assets/styles/main.css";
 import CircleBlock from "./components/CircleBlock";
 import DateChangeBlock from "./components/DateChangeBlock";
@@ -9,7 +8,7 @@ import YearsBlock from "./components/YearsBlock";
 
 const App: FC = () => {
   return (
-    <ThemeProvider theme={theme}>
+    <>
       <Global />
       <div className="wrapper">
         <MainStyle>
@@ -24,7 +23,7 @@ const App: FC = () => {
           </div>
         </MainStyle>
       </div>
-    </ThemeProvider>
+    </>
   );
 };
 
