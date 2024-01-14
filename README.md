@@ -1,12 +1,14 @@
 # Historical dates
 
 ## Technologies and libraries
+
 1. React
 2. Redux
 3. Typescript
 4. SwiperJS
 5. Styled components
 6. GSAP
+7. CountUp
 
 ## Available Scripts
 
