@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# Historical dates
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Technologies and libraries
+1. React
+2. Redux
+3. Typescript
+4. SwiperJS
+5. Styled components
+6. GSAP
 
 ## Available Scripts
 
