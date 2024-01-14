@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Data } from "../constants/data";
+// import { Data } from "../constants/data";
 import { FC } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "../store/store";
@@ -8,10 +8,10 @@ import { changeState } from "../store/slices/activeCircleSlice";
 type CircleItemType = {
   index: number;
   text: string;
+  circleDegree: number;
 };
 
-const CircleItem: FC<CircleItemType> = ({ index, text }) => {
-  const circleDegree = 360 / Data.length;
+const CircleItem: FC<CircleItemType> = ({ index, text, circleDegree }) => {
   const activeCircle = useSelector((state: RootState) => state.activeCircle);
   const dispatch = useDispatch();
 

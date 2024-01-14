@@ -12,13 +12,17 @@ const CircleBlock: FC = () => {
   return (
     <CircleStyle>
       <ul
-        className={"circle"}
         style={{
           transform: `rotate(${-activeCircle.value * circleDegree + 24}deg)`,
         }}
       >
         {Data.map((el: DataType, i: number) => (
-          <CircleItem key={el.field} index={i} text={el.field} />
+          <CircleItem
+            key={el.field}
+            index={i}
+            text={el.field}
+            circleDegree={circleDegree}
+          />
         ))}
       </ul>
     </CircleStyle>

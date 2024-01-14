@@ -1,7 +1,8 @@
 {
-  "name": "only-test",
-  "version": "1.0.1",
+	"name": "only-test",
+  "version": "1.0.2",
   "private": true,
+	"homepage": "./",
   "dependencies": {
     "@gsap/react": "^2.0.2",
     "@reduxjs/toolkit": "^2.0.1",

@@ -82,7 +82,7 @@ const SwiperStyle = styled.div`
     line-height: max(3rem, 20px);
   }
 
-  .button {
+  button {
     position: absolute;
     width: max(4rem, 30px);
     height: max(4rem, 30px);
@@ -116,7 +116,7 @@ const SwiperStyle = styled.div`
   }
 
   @media (max-width: 650px) {
-    .button {
+    button {
       display: none;
     }
   }
