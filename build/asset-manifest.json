@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "./static/css/main.47393032.css",
-    "main.js": "./static/js/main.b86a7688.js",
-    "index.html": "./index.html",
-    "static/media/date-change-arrow.svg": "./static/media/date-change-arrow.3d7f622efe02fea035434b5ebb6b3be8.svg",
-    "static/media/swiper-arrow.svg": "./static/media/swiper-arrow.42a00e1042e62dbb933ed0f87486ced3.svg",
-    "main.47393032.css.map": "./static/css/main.47393032.css.map",
-    "main.b86a7688.js.map": "./static/js/main.b86a7688.js.map"
+    "main.css": "/only-test/static/css/main.47393032.css",
+    "main.js": "/only-test/static/js/main.265e9478.js",
+    "index.html": "/only-test/index.html",
+    "static/media/date-change-arrow.svg": "/only-test/static/media/date-change-arrow.3d7f622efe02fea035434b5ebb6b3be8.svg",
+    "static/media/swiper-arrow.svg": "/only-test/static/media/swiper-arrow.42a00e1042e62dbb933ed0f87486ced3.svg",
+    "main.47393032.css.map": "/only-test/static/css/main.47393032.css.map",
+    "main.265e9478.js.map": "/only-test/static/js/main.265e9478.js.map"
   },
   "entrypoints": [
     "static/css/main.47393032.css",
-    "static/js/main.b86a7688.js"
+    "static/js/main.265e9478.js"
   ]
 }
