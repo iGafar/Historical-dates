@@ -51,14 +51,21 @@ const DateChangeBlockStyle = styled.div`
     button {
       width: max(5rem, 25px);
       height: max(5rem, 25px);
+      transition: all 300ms linear;
+      border-radius: 50%;
 
       img {
         width: 100%;
         height: 100%;
       }
 
+      &:hover {
+        background-color: var(--Primary-color);
+      }
+
       &:disabled {
         opacity: 0.5;
+        background-color: var(--Main-color);
         cursor: default;
       }
 

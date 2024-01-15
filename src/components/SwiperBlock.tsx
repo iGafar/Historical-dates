@@ -90,7 +90,7 @@ const SwiperStyle = styled.div`
     top: 50%;
     transform: translateY(-50%);
     transition: all 500ms linear;
-    background-color: var(--Main-color);
+    background-color: var(--Primary-color);
     border-radius: 50%;
     box-shadow: 0px 0px 15px rgba(56, 119, 238, 0.1);
     display: flex;

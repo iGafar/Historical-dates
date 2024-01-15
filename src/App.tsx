@@ -45,7 +45,7 @@ html {
 body {
 	font-family: "PT Sans";
 	font-weight: 700;
-	background-color: #F4F5F9;
+	background-color: var(--Main-color);
 }
 main {
 	flex-grow: 1;
@@ -99,8 +99,8 @@ main {
 }
 `;
 
-const MainStyle = styled.main`
-  height: 100vh;
+const MainStyle = styled.div`
+  height: 100svh;
 
   .container__inner {
     flex-direction: column;
@@ -148,7 +148,7 @@ const MainStyle = styled.main`
     .container {
       height: 100%;
     }
-		
+
     .container__inner {
       padding: 59px 0;
       border: none;
