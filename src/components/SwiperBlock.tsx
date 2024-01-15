@@ -128,11 +128,11 @@ const SwiperStyle = styled.div`
     }
 
     .swiper-slide {
-      opacity: 0.4;
+      opacity: 0.4 !important;
     }
 
     .swiper-slide-active {
-      opacity: 1;
+      opacity: 1 !important;
     }
   }
 `;

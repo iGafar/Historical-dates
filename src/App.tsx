@@ -145,6 +145,10 @@ const MainStyle = styled.main`
   }
 
   @media (max-width: 650px) {
+    .container {
+      height: 100%;
+    }
+		
     .container__inner {
       padding: 59px 0;
       border: none;
