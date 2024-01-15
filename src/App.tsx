@@ -102,10 +102,6 @@ main {
 const MainStyle = styled.main`
   height: 100vh;
 
-  .container {
-    height: 100%;
-  }
-
   .container__inner {
     flex-direction: column;
     border-left: 1px solid;
