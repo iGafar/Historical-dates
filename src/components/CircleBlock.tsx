@@ -6,7 +6,7 @@ import { RootState } from "../store/store";
 import CircleItem from "./CircleItem";
 
 const CircleBlock: FC = () => {
-  const circleDegree = 360 / Data.length;
+  const circleDegree: number = 360 / Data.length;
   const activeCircle = useSelector((state: RootState) => state.activeCircle);
 
   return (

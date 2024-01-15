@@ -5,8 +5,19 @@ import "./assets/styles/main.css";
 import CircleBlock from "./components/CircleBlock";
 import DateChangeBlock from "./components/DateChangeBlock";
 import YearsBlock from "./components/YearsBlock";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 
 const App: FC = () => {
+  useGSAP(() => {
+    gsap.fromTo(
+      "div",
+      { x: 50, opacity: 0 },
+      { x: 0, opacity: 1, duration: 1 }
+    );
+    gsap.fromTo("h1", { opacity: 0, x: 20 }, { opacity: 1, x: 0, delay: 1 });
+  });
+
   return (
     <>
       <Global />

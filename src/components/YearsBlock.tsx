@@ -1,16 +1,16 @@
 import { FC, useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { RootState } from "../store/store";
-import { Data } from "../constants/data";
+import { Data, DataItemType } from "../constants/data";
 import styled from "styled-components";
 import CountUp from "react-countup";
 
 const YearsBlock: FC = () => {
   const animationDuration: number = 2;
   const activeCircle = useSelector((state: RootState) => state.activeCircle);
-  const currentScope = Data[activeCircle.value].scope;
-  const firstElem = currentScope[0].year;
-  const lastElem = currentScope[currentScope.length - 1].year;
+  const currentScope: Array<DataItemType> = Data[activeCircle.value].scope;
+  const firstElem: number = currentScope[0].year;
+  const lastElem: number = currentScope[currentScope.length - 1].year;
   const [firstYear, setFirstYear] = useState<number>(firstElem);
   const [firstYearEnd, setFirstYearEnd] = useState<number>(firstElem);
   const [lastYear, setLastYear] = useState<number>(lastElem);
