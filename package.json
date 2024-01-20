@@ -2,7 +2,7 @@
   "name": "only-test",
   "version": "1.0.3",
   "private": true,
-  "homepage": "https://iGafar.github.io/only-test",
+  "homepage": "https://iGafar.github.io/Historical-dates",
   "dependencies": {
     "@gsap/react": "^2.0.2",
     "@reduxjs/toolkit": "^2.0.1",
