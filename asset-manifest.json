@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/only-test/static/css/main.fde0ba3e.css",
-    "main.js": "/only-test/static/js/main.1fd11188.js",
-    "index.html": "/only-test/index.html",
-    "static/media/date-change-arrow.svg": "/only-test/static/media/date-change-arrow.3d7f622efe02fea035434b5ebb6b3be8.svg",
-    "static/media/swiper-arrow.svg": "/only-test/static/media/swiper-arrow.42a00e1042e62dbb933ed0f87486ced3.svg",
-    "main.fde0ba3e.css.map": "/only-test/static/css/main.fde0ba3e.css.map",
-    "main.1fd11188.js.map": "/only-test/static/js/main.1fd11188.js.map"
+    "main.css": "/Historical-dates/static/css/main.fde0ba3e.css",
+    "main.js": "/Historical-dates/static/js/main.61b91de6.js",
+    "index.html": "/Historical-dates/index.html",
+    "static/media/date-change-arrow.svg": "/Historical-dates/static/media/date-change-arrow.3d7f622efe02fea035434b5ebb6b3be8.svg",
+    "static/media/swiper-arrow.svg": "/Historical-dates/static/media/swiper-arrow.42a00e1042e62dbb933ed0f87486ced3.svg",
+    "main.fde0ba3e.css.map": "/Historical-dates/static/css/main.fde0ba3e.css.map",
+    "main.61b91de6.js.map": "/Historical-dates/static/js/main.61b91de6.js.map"
   },
   "entrypoints": [
     "static/css/main.fde0ba3e.css",
-    "static/js/main.1fd11188.js"
+    "static/js/main.61b91de6.js"
   ]
 }
